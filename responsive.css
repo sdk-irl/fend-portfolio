@@ -1,0 +1,28 @@
+@media screen and (min-width: 320px) {
+    /* Make header photo smaller*/
+    /* adust header text right align */
+    /* */
+    .projects {
+
+    }
+
+}
+
+
+@media screen and (min-width: 600px) {
+    /* Size header photo */
+    /* add margins below header */
+    /* size project photos*/
+    .header {
+        margin: .5em 1.5em;
+    }
+}
+
+
+@media screen and (min-width: 850px) {
+    .header, main, nav, content, footer {
+      width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
