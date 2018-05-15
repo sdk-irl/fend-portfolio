@@ -9,7 +9,7 @@ Common
 
 body, html {
     font-family: 'Open Sans', sans-serif;
-
+}
 
 img,
 embed,
@@ -59,8 +59,9 @@ Description
     max-width: 100%;
 }
 
-.hero_img {
-    width: 100%;
+.hero-img {
+    flex-grow: 1;
+    max-width: 100%;
     height: auto;
     padding: 2em;
 }
