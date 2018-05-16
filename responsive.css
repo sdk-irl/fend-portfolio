@@ -5,6 +5,17 @@
     p {
         font-size: 18px;
     }
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header_logo, .header_inner {
+        width: 20%;
+    }
+    .header_inner {
+        width: 80%;
+    }
 }
 
 

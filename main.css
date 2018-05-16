@@ -1,11 +1,6 @@
 /*
 Common
 */
-.content, {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 
 body, html {
     font-family: 'Open Sans', sans-serif;
@@ -59,7 +54,6 @@ Description
     flex-grow: 1;
     max-width: 100%;
     height: auto;
-    padding: 1em;
 }
 
 /* 
