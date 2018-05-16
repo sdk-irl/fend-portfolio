@@ -2,16 +2,14 @@
     /* Make header photo smaller*/
     /* adust header text right align */
     /* */
-    .projects {
-
+    p {
+        font-size: 18px;
     }
-
 }
 
 
 @media screen and (min-width: 600px) {
     /* Size header photo */
-    /* add margins below header */
     /* size project photos*/
     .header {
         margin: .5em 1.5em;
@@ -24,5 +22,12 @@
       width: 850px;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    .proj1, .proj2, .proj3 {
+        padding: .25em;
+    }
+    p {
+        font-size: unset;
     }
   }

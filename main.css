@@ -1,7 +1,7 @@
 /*
 Common
 */
-.content, .header {
+.content, {
     display: flex;
     flex-wrap: wrap;
 }
@@ -29,10 +29,6 @@ Header
     font-variant: small-caps;
 }
 
-.header_inner {
-
-}
-
 .header_name {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
@@ -48,7 +44,7 @@ Header
 .horiz_rule {
     width: 100%;
     height: 12px;
-    color: #4286f4
+    color: #4286f4;
 }
 
 /*
@@ -63,12 +59,7 @@ Description
     flex-grow: 1;
     max-width: 100%;
     height: auto;
-    padding: 2em;
-}
-
-
-.description {
-
+    padding: 1em;
 }
 
 /* 
